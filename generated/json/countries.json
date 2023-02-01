@@ -1,0 +1,54 @@
+{
+    "countries": [
+    {
+        "country_id": "PM",
+        "country_name": "Burundi",
+        "region_id": 570488600
+    },
+    {
+        "country_id": "LJ",
+        "country_name": "Brunei Darussalam",
+        "region_id": 570488600
+    },
+    {
+        "country_id": "FS",
+        "country_name": "Saint Pierre and Miquelon",
+        "region_id": 439123309
+    },
+    {
+        "country_id": "XM",
+        "country_name": "Afghanistan",
+        "region_id": 570488600
+    },
+    {
+        "country_id": "SI",
+        "country_name": "Malaysia",
+        "region_id": 818323550
+    },
+    {
+        "country_id": "SH",
+        "country_name": "Sierra Leone",
+        "region_id": 570488600
+    },
+    {
+        "country_id": "LD",
+        "country_name": "Vietnam",
+        "region_id": 357675311
+    },
+    {
+        "country_id": "DX",
+        "country_name": "Svalbard & Jan Mayen Islands",
+        "region_id": 357675311
+    },
+    {
+        "country_id": "DA",
+        "country_name": "Swaziland",
+        "region_id": 891926592
+    },
+    {
+        "country_id": "UV",
+        "country_name": "Solomon Islands",
+        "region_id": 439123309
+    }
+]
+}

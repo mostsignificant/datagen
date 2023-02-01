@@ -1,0 +1,10 @@
+{
+    "countries": {{
+    fake.json(
+        data_columns=[
+            ('country_id', 'lexify', {'text': '??', 'letters': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'}),
+            ('country_name', 'country' | truncate(40, True, '', 0)),
+            ('region_id', 'random_element', {'elements': data['regions'] | map(attribute='region_id') | list })
+        ], num_rows=count, indent=4)
+}}
+}

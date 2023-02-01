@@ -1,0 +1,21 @@
+{
+    "employees": [
+    {%-  for n in range(count) %}
+        {
+            "employee_id": {{ fake.random_int(min=1, max=999999999) }},
+            "first_name": "{{ fake.first_name() }}",
+            "last_name": "{{ fake.last_name() }}",
+            "email": "{{ fake.email() }}",
+            "phone_number": "{{ fake.phone_number() | truncate(20, True, '', 0) }}",
+            "hire_date": "{{ DTEncoder().default(fake.date_between()) }}",
+            "job_id": {{ fake.random_element(elements=(data['jobs'] | map(attribute='job_id') | list)) }},
+            "salary": {{ fake.random_int(min=1000, max=7500) }},
+            "manager_id": {{ fake.random_element(elements=(data['employees'] | map(attribute='employee_id') | list)) }},
+            "department_id": {{ fake.random_element(elements=(data['departments'] | map(attribute='department_id') | list)) }}
+        }
+        {%- if n < count-1 -%}
+        ,
+        {%- endif -%}
+    {%- endfor %}
+    ]
+}

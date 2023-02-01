@@ -1,0 +1,79 @@
+{
+    "departments": [
+    {
+        "department_id": 744223654,
+        "department_name": "WH-U-O",
+        "location_id": 455570573
+    },
+    {
+        "department_id": 880662688,
+        "department_name": "LZ-W-B",
+        "location_id": 104476371
+    },
+    {
+        "department_id": 35675391,
+        "department_name": "QX-L-J",
+        "location_id": 90854024
+    },
+    {
+        "department_id": 531914958,
+        "department_name": "QZ-S-T",
+        "location_id": 391349823
+    },
+    {
+        "department_id": 320294713,
+        "department_name": "CN-M-S",
+        "location_id": 918874403
+    },
+    {
+        "department_id": 612882744,
+        "department_name": "VL-Y-H",
+        "location_id": 214252944
+    },
+    {
+        "department_id": 430545248,
+        "department_name": "ZC-Q-B",
+        "location_id": 521776365
+    },
+    {
+        "department_id": 803203359,
+        "department_name": "BL-S-R",
+        "location_id": 57689012
+    },
+    {
+        "department_id": 295929609,
+        "department_name": "YQ-Y-U",
+        "location_id": 521776365
+    },
+    {
+        "department_id": 172081864,
+        "department_name": "VB-I-O",
+        "location_id": 90854024
+    },
+    {
+        "department_id": 682568355,
+        "department_name": "XM-I-R",
+        "location_id": 557728601
+    },
+    {
+        "department_id": 810529232,
+        "department_name": "LQ-Q-Q",
+        "location_id": 736554394
+    },
+    {
+        "department_id": 21895595,
+        "department_name": "EB-W-U",
+        "location_id": 842873674
+    },
+    {
+        "department_id": 971510361,
+        "department_name": "ZR-S-C",
+        "location_id": 271232543
+    },
+    {
+        "department_id": 443073030,
+        "department_name": "ZK-V-R",
+        "location_id": 647084858
+    }
+]
+}

@@ -1,0 +1,10 @@
+{
+    "departments": {{
+    fake.json(
+        data_columns=[
+            ('department_id', 'random_int', {'min': 1, 'max': 999999999}),
+            ('department_name', 'lexify', {'text': '??-?-?', 'letters': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'}),
+            ('location_id', 'random_element', {'elements': data['locations'] | map(attribute='location_id') | list })
+        ], num_rows=count, indent=4)
+}}
+}

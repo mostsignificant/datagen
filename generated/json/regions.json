@@ -1,0 +1,24 @@
+{
+    "regions": [
+    {
+        "region_id": 357675311,
+        "region_name": "VB"
+    },
+    {
+        "region_id": 570488600,
+        "region_name": "PC"
+    },
+    {
+        "region_id": 818323550,
+        "region_name": "GF"
+    },
+    {
+        "region_id": 439123309,
+        "region_name": "CX"
+    },
+    {
+        "region_id": 891926592,
+        "region_name": "IC"
+    }
+]
+}

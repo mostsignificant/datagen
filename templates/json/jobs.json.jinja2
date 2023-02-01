@@ -1,0 +1,17 @@
+{
+    "jobs": [
+    {%-  for n in range(count) %}
+        {%- set min_salary = fake.random_int(min=1000, max=2150) %}
+        {%- set max_salary = min_salary + fake.random_int(min=250, max=7500) %}
+        {
+            "job_id": {{ fake.random_int(min=1, max=999999999) }},
+            "job_title": "{{ fake.job() | truncate(35, True, '', 0) }}",
+            "min_salary": {{ min_salary }},
+            "max_salary": {{ fake.random_element(elements=('null', max_salary)) }}
+        }
+        {%- if n < count-1 -%}
+        ,
+        {%- endif -%}
+    {%- endfor %}
+    ]
+}

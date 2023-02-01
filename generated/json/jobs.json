@@ -1,0 +1,94 @@
+{
+    "jobs": [
+        {
+            "job_id": 30608903,
+            "job_title": "Accounting technician",
+            "min_salary": 1347,
+            "max_salary": null
+        },
+        {
+            "job_id": 676378344,
+            "job_title": "Industrial buyer",
+            "min_salary": 1912,
+            "max_salary": null
+        },
+        {
+            "job_id": 123027196,
+            "job_title": "Ship broker",
+            "min_salary": 1486,
+            "max_salary": null
+        },
+        {
+            "job_id": 61857324,
+            "job_title": "IT sales professional",
+            "min_salary": 1833,
+            "max_salary": 4500
+        },
+        {
+            "job_id": 863915272,
+            "job_title": "Barrister's clerk",
+            "min_salary": 1532,
+            "max_salary": 8722
+        },
+        {
+            "job_id": 542984304,
+            "job_title": "Musician",
+            "min_salary": 2073,
+            "max_salary": null
+        },
+        {
+            "job_id": 373392130,
+            "job_title": "Landscape architect",
+            "min_salary": 2028,
+            "max_salary": 2308
+        },
+        {
+            "job_id": 895199287,
+            "job_title": "Theme park manager",
+            "min_salary": 1414,
+            "max_salary": 6272
+        },
+        {
+            "job_id": 203357610,
+            "job_title": "Surveyor, minerals",
+            "min_salary": 1616,
+            "max_salary": null
+        },
+        {
+            "job_id": 844632191,
+            "job_title": "Electrical engineer",
+            "min_salary": 1526,
+            "max_salary": 2072
+        },
+        {
+            "job_id": 399860167,
+            "job_title": "Midwife",
+            "min_salary": 1794,
+            "max_salary": 3655
+        },
+        {
+            "job_id": 676550815,
+            "job_title": "Designer, graphic",
+            "min_salary": 1241,
+            "max_salary": 5232
+        },
+        {
+            "job_id": 551434508,
+            "job_title": "Licensed conveyancer",
+            "min_salary": 1855,
+            "max_salary": null
+        },
+        {
+            "job_id": 862645284,
+            "job_title": "Scientific laboratory technician",
+            "min_salary": 1445,
+            "max_salary": null
+        },
+        {
+            "job_id": 523258675,
+            "job_title": "Housing manager/officer",
+            "min_salary": 1536,
+            "max_salary": null
+        }
+    ]
+}

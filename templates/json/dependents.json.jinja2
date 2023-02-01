@@ -1,0 +1,12 @@
+{
+    "dependents": {{
+    fake.json(
+        data_columns=[
+            ('dependent_id', 'random_int', {'min': 1, 'max': 999999999}),
+            ('first_name', 'first_name'),
+            ('last_name', 'last_name'),
+            ('relationship', 'random_element', { 'elements': ('sister', 'brother', 'wife', 'husband', 'daughter', 'son') }),
+            ('employee_id', 'random_element', { 'elements': data['employees'] | map(attribute='employee_id') | list }),
+        ], num_rows=count, indent=4)
+}}
+}

@@ -1,0 +1,9 @@
+{
+    "regions": {{
+    fake.json(
+        data_columns=[
+            ('region_id', 'random_int', {'min': 1, 'max': 999999999}),
+            ('region_name', 'lexify', {'text': '??', 'letters': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'})
+        ], num_rows=count, indent=4)
+}}
+}

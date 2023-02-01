@@ -1,0 +1,13 @@
+{
+    "locations": {{
+    fake.json(
+        data_columns=[
+            ('location_id', 'random_int', {'min': 1, 'max': 999999999}),
+            ('street_address', 'street_address'),
+            ('postal_code', 'random_number', {'digits': 5}),
+            ('city', 'city'),
+            ('state_province', 'lexify', {'text': '??', 'letters': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'}),
+            ('country_id', 'random_element', {'elements': data['countries'] | map(attribute='country_id') | list })
+        ], num_rows=count, indent=4)
+}}
+}
